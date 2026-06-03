@@ -7,16 +7,16 @@ body {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    min-height: 1000px;
+    width: 100vw;
     position: relative;
 }
 
 .container{
     background-image: url("../imagens/imagem1.jpg");
     background-size: cover;
-    background-position: -650px 0px;;
-    width: 100vw;
+    background-position: -675px 0px;
     height: 100vw;
+    width: 100vw;
 }
 
 .titulo {
@@ -32,6 +32,13 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.titulo img{
+    height: 125px;
+    position: absolute;
+    top: 5px;
+    left: 0.5%;
+}
+
 .faixa{
     background-color: rgb(0, 0, 0, 0.75);
     width: 100vw;
@@ -40,6 +47,8 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
+
+    color: white;
 }
 
 .texto{
@@ -62,8 +71,12 @@ body {
     border-radius: 25px;
     background-color: rgb(0, 0, 0, 0.75);
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
 }
 
 #botao:hover{
-    background-color: green;
+    background-color: rgba(1, 105, 1, 0.75);
+    transition: 0.2s;
 }

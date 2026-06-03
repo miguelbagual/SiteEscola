@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(255, 208, 0);
+    height: 200vw;
+}
+
+.container{
+    background-image: url("../imagens/imagem2.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+}
