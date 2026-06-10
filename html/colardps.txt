@@ -1,0 +1,37 @@
+         <div class="imagens">
+            <div class="mbrasil1">
+                <img src="../imagens/meiobrasil.png">
+            </div>
+            <div class="mbrasil2">
+                <img src="../imagens/meiobrasil.png">
+            </div>
+
+
+css
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.mbrasil1,
+.mbrasil2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.mbrasil1 img{
+    opacity: 1;
+    margin-left: -450px;
+}
+
+.mbrasil2 img{
+    opacity: 1;
+    transform: scaleX(-1);
+    margin-right: -450px;
+}
